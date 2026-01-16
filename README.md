@@ -1,65 +1,99 @@
-# 🏦 Banking Domain Power BI Dashboard
+# 🏦 Banking Analytics Dashboard
 
-This repository contains an interactive Power BI dashboard that provides insights into various aspects of the banking domain such as customer behavior, loan disbursement, and branch performance.
-
----
-
-## 📊 Dashboard Features
-
-- 📌 **Loan Distribution** – Analysis of loan amounts across types (Home, Personal, Business, etc.)
-- 👥 **Customer Segmentation** – Segregation by age group, income level, and location
-- 🏢 **Branch-wise Performance** – KPIs such as total loans issued, deposit value, and NPA rates
-- 📅 **Monthly Trends** – Visuals depicting trends in loan approval and customer acquisition
-- 📈 **Key Performance Indicators (KPIs)**:
-  - Total Customers
-  - Total Loan Amount
-  - Approval Rate
-  - Default Rate
-  - Average Loan per Customer
+## 📌 Project Overview
+The **Banking Analytics Dashboard** project focuses on analyzing customer-level banking data to understand **loan and deposit distribution, customer segmentation, and long-term financial trends**.  
+This project demonstrates an end-to-end analytics workflow using **Python, SQL, Excel, and Power BI** to support data-driven decision-making in the banking domain.
 
 ---
 
-## 🛠 Tools & Technologies Used
-
-- **Power BI** – For dashboard creation and data modeling
-- **DAX** – To create calculated fields and measures
-- **Power Query Editor** – For data cleaning and transformation
-- **Excel/CSV** – Used as the data source
-
----
-
-## 📁 Repository Structure
-
-- `banking domain.pbix` – Main Power BI dashboard file
-- `README.md` – This file (documentation)
+## 🎯 Project Objectives
+- Analyze loan and deposit distribution across customer segments  
+- Understand customer behavior based on income bands  
+- Perform long-term financial trend analysis  
+- Create KPIs for monitoring banking performance  
 
 ---
 
-## 📍 Insights Derived
-
-- Home loans are the most issued loan category
-- Customers aged 25–40 are the most active banking customers
-- Certain branches consistently outperform others in deposits and loan recovery
-
----
-
-## 📌 Usage
-
-To view the dashboard:
-
-1. Download the `.pbix` file
-2. Open with [Power BI Desktop](https://powerbi.microsoft.com/)
-3. Explore interactive visuals and filters
+## 📊 Dataset Overview
+- **Time Period:** 1995 – 2021  
+- **Data Type:** Banking transactions and customer financial records  
+- **Key Attributes:** Customer segment, income band, loans, deposits, year  
 
 ---
 
-## ✍️ Author
+## 🛠️ Tech Stack
 
-- **Name**: Chandra Reddy  
-- **GitHub**: [chandrareddy1817](https://github.com/chandrareddy1817)
+### Programming & Libraries
+- **Python**
+- Pandas, NumPy, Matplotlib
+
+### Data Analysis
+- Data Cleaning & Transformation  
+- Exploratory Data Analysis (EDA)  
+- Trend & Segmentation Analysis  
+
+### Visualization & BI
+- **Power BI**
+- **Microsoft Excel**
+- **DAX**
+
+### Database & Tools
+- **MySQL**
+- Power Query  
+- Jupyter Notebook  
 
 ---
 
-## 🔒 Disclaimer
+## ⚙️ Project Workflow
+1. **Data Understanding & Collection**  
+   - Reviewed raw banking datasets and identified data quality issues  
 
-This project is for learning and portfolio purposes. Data is either public or simulated.
+2. **Data Cleaning & Transformation**  
+   - Cleaned and standardized data using Python and Power Query  
+   - Ensured consistency across multiple years of data  
+
+3. **Exploratory Data Analysis (EDA)**  
+   - Analyzed loan and deposit trends over time  
+   - Segmented customers based on income bands  
+
+4. **KPI Development**  
+   - Total Loans  
+   - Total Deposits  
+   - Year-wise Growth  
+   - Customer Segment Contribution  
+
+5. **Dashboard Development**  
+   - Designed interactive Power BI dashboards  
+   - Implemented DAX measures for dynamic KPI calculations  
+
+---
+
+## 📈 Key Insights
+- Identified customer segments contributing most to deposits  
+- Analyzed loan distribution across income bands  
+- Observed long-term financial growth and trend patterns  
+
+---
+
+## 💼 Business Value
+- Helps banks understand customer financial behavior  
+- Supports strategic planning using long-term trend analysis  
+- Enables better targeting of profitable customer segments  
+
+---
+
+## 🚀 How to Use This Project
+1. Explore Python notebooks for data cleaning and EDA  
+2. Review SQL queries for data validation and analysis  
+3. Interact with the Power BI dashboard to view insights  
+
+---
+
+## 📬 Contact
+**Yaraveda Chandrasekhar Reddy**  
+📧 Email: chandrasekharreddyyaraveda@gmail.com  
+
+
+---
+
+⭐ *If you find this project helpful, feel free to star the repository!*
